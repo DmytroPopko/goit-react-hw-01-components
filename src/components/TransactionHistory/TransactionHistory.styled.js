@@ -22,10 +22,10 @@ export const Td = styled.td`
 `;
 
 export const Tr = styled.tr`
-  :nth-child(odd) {
+  &:nth-child(odd) {
     background: ${props => props.theme.colors.white};
   }
-  :nth-child(even) {
+  &:nth-child(even) {
     background: ${props => props.theme.colors.colorStats};
   }
 `;

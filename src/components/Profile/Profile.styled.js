@@ -34,7 +34,7 @@ export const Location = styled.div`
   color: ${props => props.theme.colors.secondaryText};
 `;
 
-export const Stats = styled.li`
+export const Stats = styled.ul`
   list-style: none;
   columns: 3;
 `;
